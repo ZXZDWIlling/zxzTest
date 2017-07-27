@@ -46,7 +46,7 @@ public class LoginInstrumentedTest {
      * 主方法
      */
     @Test
-    public void testLoginMain(){
+    public void testLoginMain() throws Exception{
         testSplashTime();//测试启动页时间为5-10秒
     }
 

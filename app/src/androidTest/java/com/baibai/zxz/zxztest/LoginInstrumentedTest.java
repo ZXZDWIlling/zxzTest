@@ -15,7 +15,9 @@ import android.support.test.uiautomator.UiDevice;
 import android.support.test.uiautomator.UiObject;
 import android.support.test.uiautomator.UiSelector;
 import android.support.test.uiautomator.Until;
+import android.view.KeyEvent;
 
+import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -41,6 +43,11 @@ public class LoginInstrumentedTest {
     UiDevice mDevice = null;
     Context mContext = null;
 
+    //组件
+    UiObject mAccountEdit = null;
+    UiObject mPasswordEdit = null;
+    UiObject mLoginButton = null;
+
     @Before
     public void setUp(){
         if(null == mInstrumentation)
@@ -51,6 +58,11 @@ public class LoginInstrumentedTest {
             mContext = InstrumentationRegistry.getContext();
     }
 
+    @After
+    public void tearDown(){
+
+    }
+
 
     /**
      * 主方法
@@ -58,12 +70,32 @@ public class LoginInstrumentedTest {
     @Test
     public void testLoginMain() throws Exception{
         testSplashTime();//测试启动页时间为5-10秒
+
+        testLoginCase();//执行参数列表
+    }
+
+    /*
+    按照手机号、密码不同情况测试登陆
+     */
+    private void testLoginCase() throws Exception{
+        //确保登陆按钮存在
+        if(null == mLoginButton || !mLoginButton.exists()){
+            mLoginButton = mDevice.findObject(new UiSelector());
+        }
+        //输入手机号和密码
+        for(int i = 0; i < ACCOUNT_PASSWORD.length; i += 3){
+            inputAccountAndPassword(ACCOUNT_PASSWORD[i], ACCOUNT_PASSWORD[i + 1]);
+            mLoginButton.clickAndWaitForNewWindow();
+        }
+        //检查登陆成功
+        UiObject enterButton = mDevice.findObject(new UiSelector());
+        assertTrue("Login not success", enterButton.exists());
     }
 
     /*
     测试启动页时间为5-10秒
      */
-    public void testSplashTime() throws Exception{
+    private void testSplashTime() throws Exception{
         mDevice.pressHome();
         mDevice.wait(Until.hasObject(By.pkg(mDevice.getLauncherPackageName())), 3 * 1000);
         //启动应用
@@ -86,5 +118,30 @@ public class LoginInstrumentedTest {
 
 
         }
+    }
+
+    /*
+    输入账号和密码
+     */
+    private void inputAccountAndPassword(String account, String password) throws Exception{
+        assertNotNull("account is not", account);
+        assertNotNull("password is not", password);
+        //找到手机号和密码输入框
+        if(null == mAccountEdit || !mAccountEdit.exists())
+            mAccountEdit = mDevice.findObject(new UiSelector());
+        if(null == mPasswordEdit || !mPasswordEdit.exists())
+            mAccountEdit = mDevice.findObject(new UiSelector());
+        //输入手机号
+        mAccountEdit.click();
+        mAccountEdit.clearTextField();
+        mAccountEdit.setText(account);
+        //输入密码
+        mPasswordEdit.click();
+        mDevice.pressKeyCode(KeyEvent.KEYCODE_MOVE_END);
+        for(int i = 0; i < 16; i++){
+            mDevice.pressKeyCode(KeyEvent.KEYCODE_DEL);
+        }
+        mPasswordEdit.setText(password);
+
     }
 }

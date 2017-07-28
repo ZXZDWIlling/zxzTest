@@ -24,3 +24,6 @@ public class ExampleInstrumentedTest {
         assertEquals("com.baibai.zxz.zxztest", appContext.getPackageName());
     }
 }
+
+
+//android studio git test

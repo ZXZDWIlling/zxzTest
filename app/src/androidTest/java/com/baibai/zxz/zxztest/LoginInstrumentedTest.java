@@ -17,6 +17,9 @@ import android.support.test.uiautomator.UiSelector;
 import android.support.test.uiautomator.Until;
 import android.view.KeyEvent;
 
+import com.orhanobut.logger.AndroidLogAdapter;
+import com.orhanobut.logger.Logger;
+
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
@@ -29,7 +32,7 @@ public class LoginInstrumentedTest {
 
     //登录的手机号、密码
     //[0]:手机号, [1]:密码, [2]:对应的测试用例标题
-    String ACCOUNT_PASSWORD[] = {
+    private String ACCOUNT_PASSWORD[] = {
             "", "", "手机号和密码为空，登录失败",
             "", "123456", "手机号为空，登录失败",
             "18819425652", "123456", "手机号错误，登录失败",
@@ -38,15 +41,15 @@ public class LoginInstrumentedTest {
             "05521397022", "123456", "手机号正确，密码正确，登录成功"
     };
 
-    String PACKAGE_NAME = "com.baibai.baibai";//包名
-    Instrumentation mInstrumentation = null;
-    UiDevice mDevice = null;
-    Context mContext = null;
+    private String PACKAGE_NAME = "com.baibai.baibai";//包名
+    private Instrumentation mInstrumentation = null;
+    private UiDevice mDevice = null;
+    private Context mContext = null;
 
     //组件
-    UiObject mAccountEdit = null;
-    UiObject mPasswordEdit = null;
-    UiObject mLoginButton = null;
+    private UiObject mAccountEdit = null;
+    private UiObject mPasswordEdit = null;
+    private UiObject mLoginButton = null;
 
     @Before
     public void setUp(){
@@ -56,6 +59,9 @@ public class LoginInstrumentedTest {
             mDevice = UiDevice.getInstance(mInstrumentation);
         if(null == mContext)
             mContext = InstrumentationRegistry.getContext();
+
+        Logger.addLogAdapter(new AndroidLogAdapter());
+        Logger.d("hello");
     }
 
     @After
@@ -84,7 +90,7 @@ public class LoginInstrumentedTest {
         }
         //输入手机号和密码
         for(int i = 0; i < ACCOUNT_PASSWORD.length; i += 3){
-            inputAccountAndPassword(ACCOUNT_PASSWORD[i], ACCOUNT_PASSWORD[i + 1]);
+            inputAccountAndPassword(ACCOUNT_PASSWORD[i], ACCOUNT_PASSWORD[i + 1], false);
             mLoginButton.clickAndWaitForNewWindow();
         }
         //检查登陆成功
@@ -124,7 +130,8 @@ public class LoginInstrumentedTest {
     /*
     输入账号和密码
      */
-    private void inputAccountAndPassword(String account, String password) throws Exception{
+    private void inputAccountAndPassword(String account, String password
+            , boolean clickClearButton) throws Exception{
         assertNotNull("account is not", account);
         assertNotNull("password is not", password);
         //找到手机号和密码输入框
@@ -134,15 +141,17 @@ public class LoginInstrumentedTest {
         if(null == mPasswordEdit || !mPasswordEdit.exists())
             mPasswordEdit = mDevice.findObject(new UiSelector()
                     .resourceId("com.baibai.baibai:id/et_password"));
-/*
-if(null == mClearButton || !mClearButton.exists())
-	UiObject mClearButton = mDevice.findObject(new UiSelector());
-mClearButton.clickAndWaitForNewWindow();
-*/
 
         //输入手机号
         mAccountEdit.click();
-        mAccountEdit.clearTextField();
+        //根据传入参数决定如何清空手机号输入框,在于测试清空按钮的功能
+        if(clickClearButton && mAccountEdit.getText().length() > 0){
+            UiObject clearButton = mDevice.findObject(new UiSelector());
+            assertTrue("clearButton not exists", clearButton.exists());
+            clearButton.clickAndWaitForNewWindow();
+        }else{
+            mAccountEdit.clearTextField();
+        }
         mAccountEdit.setText(account);
         //输入密码
         mPasswordEdit.click();

@@ -28,5 +28,5 @@ dependencies {
     testCompile 'junit:junit:4.12'
     //引入Uiautomator
     androidTestCompile 'com.android.support.test.uiautomator:uiautomator-v18:2.1.1'
-
+    compile 'com.orhanobut:logger:2.1.1'
 }

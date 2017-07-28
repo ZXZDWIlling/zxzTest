@@ -88,7 +88,8 @@ public class LoginInstrumentedTest {
             mLoginButton.clickAndWaitForNewWindow();
         }
         //检查登陆成功
-        UiObject enterButton = mDevice.findObject(new UiSelector());
+        UiObject enterButton = mDevice.findObject(new UiSelector()
+                .resourceId("com.baibai.baibai:id/tv_login"));
         assertTrue("Login not success", enterButton.exists());
     }
 
@@ -128,9 +129,17 @@ public class LoginInstrumentedTest {
         assertNotNull("password is not", password);
         //找到手机号和密码输入框
         if(null == mAccountEdit || !mAccountEdit.exists())
-            mAccountEdit = mDevice.findObject(new UiSelector());
+            mAccountEdit = mDevice.findObject(new UiSelector()
+                    .resourceId("com.baibai.baibai:id/et_account"));
         if(null == mPasswordEdit || !mPasswordEdit.exists())
-            mAccountEdit = mDevice.findObject(new UiSelector());
+            mPasswordEdit = mDevice.findObject(new UiSelector()
+                    .resourceId("com.baibai.baibai:id/et_password"));
+/*
+if(null == mClearButton || !mClearButton.exists())
+	UiObject mClearButton = mDevice.findObject(new UiSelector());
+mClearButton.clickAndWaitForNewWindow();
+*/
+
         //输入手机号
         mAccountEdit.click();
         mAccountEdit.clearTextField();

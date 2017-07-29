@@ -11,11 +11,14 @@ import android.os.SystemClock;
 import android.support.test.InstrumentationRegistry;
 import android.support.test.runner.AndroidJUnit4;
 import android.support.test.uiautomator.By;
+import android.support.test.uiautomator.BySelector;
 import android.support.test.uiautomator.UiDevice;
 import android.support.test.uiautomator.UiObject;
 import android.support.test.uiautomator.UiSelector;
 import android.support.test.uiautomator.Until;
 import android.view.KeyEvent;
+import android.widget.ImageView;
+import android.widget.TextView;
 
 import com.orhanobut.logger.AndroidLogAdapter;
 import com.orhanobut.logger.Logger;
@@ -24,6 +27,8 @@ import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
+
+import java.util.Random;
 
 import static org.junit.Assert.*;
 
@@ -45,6 +50,7 @@ public class LoginInstrumentedTest {
     private Instrumentation mInstrumentation = null;
     private UiDevice mDevice = null;
     private Context mContext = null;
+	private int countClickClearButton = 0;
 
     //组件
     private UiObject mAccountEdit = null;
@@ -60,8 +66,8 @@ public class LoginInstrumentedTest {
         if(null == mContext)
             mContext = InstrumentationRegistry.getContext();
 
+        //添加第三方日志框架
         Logger.addLogAdapter(new AndroidLogAdapter());
-        Logger.d("hello");
     }
 
     @After
@@ -75,28 +81,34 @@ public class LoginInstrumentedTest {
      */
     @Test
     public void testLoginMain() throws Exception{
+        Logger.t("开始").e("test start=================================================");
         testSplashTime();//测试启动页时间为5-10秒
 
-        testLoginCase();//执行参数列表
+//        testLoginCase();//执行参数列表
     }
 
     /*
     按照手机号、密码不同情况测试登陆
      */
     private void testLoginCase() throws Exception{
+        Random random = new Random();
         //确保登陆按钮存在
         if(null == mLoginButton || !mLoginButton.exists()){
-            mLoginButton = mDevice.findObject(new UiSelector());
+            mLoginButton = mDevice.findObject(new UiSelector()
+                    .resourceId("com.baibai.baibai:id/tv_login"));
         }
         //输入手机号和密码
         for(int i = 0; i < ACCOUNT_PASSWORD.length; i += 3){
-            inputAccountAndPassword(ACCOUNT_PASSWORD[i], ACCOUNT_PASSWORD[i + 1], false);
+            inputAccountAndPassword(ACCOUNT_PASSWORD[i], ACCOUNT_PASSWORD[i + 1]
+                    , random.nextBoolean());
             mLoginButton.clickAndWaitForNewWindow();
         }
         //检查登陆成功
         UiObject enterButton = mDevice.findObject(new UiSelector()
-                .resourceId("com.baibai.baibai:id/tv_login"));
+                .resourceId("com.baibai.baibai:id/guide_start_tv"));
         assertTrue("Login not success", enterButton.exists());
+        enterButton.clickAndWaitForNewWindow();
+
     }
 
     /*
@@ -112,18 +124,25 @@ public class LoginInstrumentedTest {
             mContext.startActivity(intent);
             mDevice.wait(Until.hasObject(By.pkg(PACKAGE_NAME)), 3 * 1000);
             //开始计时
-            UiObject mSplashPic = mDevice.findObject(new UiSelector()
-                    .className("android.widget.FrameLayout").packageName(PACKAGE_NAME));
-            if(0 == mSplashPic.getChildCount()){
-                long start = SystemClock.uptimeMillis();
-                mSplashPic.waitUntilGone(10 * 1000);
-                long time = SystemClock.uptimeMillis() - start;
-                //判断停留在启动页时间5-10秒之间
-                assertTrue("the Splash time is not bettween 5s and 10s"
-                        , time >= 5 * 1000 && time <= 10 * 1000);
-            }
-
-
+//            UiObject mSplashPic = mDevice.findObject(new UiSelector()
+//                    .resourceId("com.baibai.baibai:id/splash_iv"));
+//            if(mSplashPic.exists()){
+//                long start = SystemClock.uptimeMillis();
+//                mSplashPic.waitUntilGone(10 * 1000);
+//                long time = SystemClock.uptimeMillis() - start;
+//                //判断停留在启动页时间5-10秒之间
+//				Logger.e("" + time);
+//                assertTrue("the Splash time is not bettween 5s and 10s"
+//                        , time >= 5 * 1000 && time <= 10 * 1000);
+//            }else{
+//                Logger.e("不存在");
+//
+//            }
+            long start = SystemClock.uptimeMillis();
+            mDevice.wait(Until.hasObject(By.clazz(ImageView.class)
+                    .res("com.baibai.baibai:id/iv_user_head")), 60 * 1000);
+		    long time = SystemClock.uptimeMillis() - start;
+            Logger.d("" + time);
         }
     }
 
@@ -146,6 +165,7 @@ public class LoginInstrumentedTest {
         mAccountEdit.click();
         //根据传入参数决定如何清空手机号输入框,在于测试清空按钮的功能
         if(clickClearButton && mAccountEdit.getText().length() > 0){
+			countClickClearButton++;
             UiObject clearButton = mDevice.findObject(new UiSelector());
             assertTrue("clearButton not exists", clearButton.exists());
             clearButton.clickAndWaitForNewWindow();

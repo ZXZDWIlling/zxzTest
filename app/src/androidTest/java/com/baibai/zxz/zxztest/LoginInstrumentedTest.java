@@ -11,17 +11,18 @@ import android.os.SystemClock;
 import android.support.test.InstrumentationRegistry;
 import android.support.test.runner.AndroidJUnit4;
 import android.support.test.uiautomator.By;
-import android.support.test.uiautomator.BySelector;
 import android.support.test.uiautomator.UiDevice;
 import android.support.test.uiautomator.UiObject;
 import android.support.test.uiautomator.UiSelector;
 import android.support.test.uiautomator.Until;
 import android.view.KeyEvent;
+import android.view.View;
 import android.widget.ImageView;
-import android.widget.TextView;
 
 import com.orhanobut.logger.AndroidLogAdapter;
+import com.orhanobut.logger.FormatStrategy;
 import com.orhanobut.logger.Logger;
+import com.orhanobut.logger.PrettyFormatStrategy;
 
 import org.junit.After;
 import org.junit.Before;
@@ -30,27 +31,25 @@ import org.junit.runner.RunWith;
 
 import java.util.Random;
 
-import static org.junit.Assert.*;
-
 @RunWith(AndroidJUnit4.class)
 public class LoginInstrumentedTest {
-
+    private String correctPhone = "05521397022";    //正确的手机号
     //登录的手机号、密码
     //[0]:手机号, [1]:密码, [2]:对应的测试用例标题
     private String ACCOUNT_PASSWORD[] = {
             "", "", "手机号和密码为空，登录失败",
             "", "123456", "手机号为空，登录失败",
             "18819425652", "123456", "手机号错误，登录失败",
-            "05521397022", "", "手机号正确，密码为空，登录失败",
-            "05521397022", "1234567", "手机号正确，密码为空，登录失败",
-            "05521397022", "123456", "手机号正确，密码正确，登录成功"
+            correctPhone, "", "手机号正确，密码为空，登录失败",
+            correctPhone, "1234567", "手机号正确，密码为空，登录失败",
+            correctPhone, "123456", "手机号正确，密码正确，登录成功"
     };
 
     private String PACKAGE_NAME = "com.baibai.baibai";//包名
     private Instrumentation mInstrumentation = null;
     private UiDevice mDevice = null;
     private Context mContext = null;
-	private int countClickClearButton = 0;
+	private int countClickClearButton = 0;  //点击‘x’的测试
 
     //组件
     private UiObject mAccountEdit = null;
@@ -67,7 +66,12 @@ public class LoginInstrumentedTest {
             mContext = InstrumentationRegistry.getContext();
 
         //添加第三方日志框架
-        Logger.addLogAdapter(new AndroidLogAdapter());
+        FormatStrategy formatStrategy = PrettyFormatStrategy.newBuilder()
+                .showThreadInfo(false)
+                .methodCount(1)
+                .tag("zxz-login")
+                .build();
+        Logger.addLogAdapter(new AndroidLogAdapter(formatStrategy));
     }
 
     @After
@@ -81,10 +85,10 @@ public class LoginInstrumentedTest {
      */
     @Test
     public void testLoginMain() throws Exception{
-        Logger.t("开始").e("test start=================================================");
+        Logger.i("test start=================================================");
         testSplashTime();//测试启动页时间为5-10秒
 
-//        testLoginCase();//执行参数列表
+        testLoginCase();//执行参数列表
     }
 
     /*
@@ -106,13 +110,21 @@ public class LoginInstrumentedTest {
         //检查登陆成功
         UiObject enterButton = mDevice.findObject(new UiSelector()
                 .resourceId("com.baibai.baibai:id/guide_start_tv"));
-        assertTrue("Login not success", enterButton.exists());
-        enterButton.clickAndWaitForNewWindow();
-
+        //打印日志
+        if(enterButton.exists()){
+            if(countClickClearButton == 0)
+                //统计点击清空按钮的次数
+                Logger.w("Login success" + "\nClick ClearTextButton:\t\t" + countClickClearButton);
+            else
+                Logger.i("Login success" + "\nClick ClearTextButton:\t\t" + countClickClearButton);
+        }
+        else
+            Logger.e("Login Failure:\n\t" + correctPhone + ":" + "123456");
+        enterButton.clickAndWaitForNewWindow();//进入首页
     }
 
     /*
-    测试启动页时间为5-10秒
+    测试启动页时间
      */
     private void testSplashTime() throws Exception{
         mDevice.pressHome();
@@ -124,25 +136,20 @@ public class LoginInstrumentedTest {
             mContext.startActivity(intent);
             mDevice.wait(Until.hasObject(By.pkg(PACKAGE_NAME)), 3 * 1000);
             //开始计时
-//            UiObject mSplashPic = mDevice.findObject(new UiSelector()
-//                    .resourceId("com.baibai.baibai:id/splash_iv"));
-//            if(mSplashPic.exists()){
-//                long start = SystemClock.uptimeMillis();
-//                mSplashPic.waitUntilGone(10 * 1000);
-//                long time = SystemClock.uptimeMillis() - start;
-//                //判断停留在启动页时间5-10秒之间
-//				Logger.e("" + time);
-//                assertTrue("the Splash time is not bettween 5s and 10s"
-//                        , time >= 5 * 1000 && time <= 10 * 1000);
-//            }else{
-//                Logger.e("不存在");
-//
-//            }
             long start = SystemClock.uptimeMillis();
+            //splash时间
+            mDevice.wait(Until.hasObject(By.clazz(View.class)
+                    .res("com.baibai.baibai:id/circleprogressview")), 60 * 1000);
+            //广告时间
+            long splashTime = SystemClock.uptimeMillis() - start;
             mDevice.wait(Until.hasObject(By.clazz(ImageView.class)
                     .res("com.baibai.baibai:id/iv_user_head")), 60 * 1000);
-		    long time = SystemClock.uptimeMillis() - start;
-            Logger.d("" + time);
+            //总时间
+		    long totalTime = SystemClock.uptimeMillis() - start;
+            //打印日志，显示时间
+            Logger.t("Time").i("TotalTime:\t\t" + totalTime
+                    + "\nSplashTime:\t\t" + splashTime
+                    + "\nAdvTime:\t\t" + (totalTime - splashTime));
         }
     }
 
@@ -151,8 +158,8 @@ public class LoginInstrumentedTest {
      */
     private void inputAccountAndPassword(String account, String password
             , boolean clickClearButton) throws Exception{
-        assertNotNull("account is not", account);
-        assertNotNull("password is not", password);
+        //打印日志，方便追踪
+        Logger.t("input").d("%s:%s", account, password);
         //找到手机号和密码输入框
         if(null == mAccountEdit || !mAccountEdit.exists())
             mAccountEdit = mDevice.findObject(new UiSelector()
@@ -166,10 +173,15 @@ public class LoginInstrumentedTest {
         //根据传入参数决定如何清空手机号输入框,在于测试清空按钮的功能
         if(clickClearButton && mAccountEdit.getText().length() > 0){
 			countClickClearButton++;
-            UiObject clearButton = mDevice.findObject(new UiSelector());
-            assertTrue("clearButton not exists", clearButton.exists());
+            UiObject clearButton = mDevice.findObject(new UiSelector()
+                    .resourceId("com.baibai.baibai:id/fl_cancel"));
+            if(!clearButton.exists())
+                Logger.t("Input").e("ClearTextButton is not found");
+
+            //点击按钮清空输入框
             clearButton.clickAndWaitForNewWindow();
         }else{
+            //手动清空
             mAccountEdit.clearTextField();
         }
         mAccountEdit.setText(account);
@@ -180,6 +192,5 @@ public class LoginInstrumentedTest {
             mDevice.pressKeyCode(KeyEvent.KEYCODE_DEL);
         }
         mPasswordEdit.setText(password);
-
     }
 }

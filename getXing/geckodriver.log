@@ -1,0 +1,793 @@
+1503504492507	geckodriver	INFO	geckodriver 0.18.0
+1503504492538	geckodriver	INFO	Listening on 127.0.0.1:52788
+1503504494585	geckodriver::marionette	INFO	Starting browser D:\Program Files (x86)\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1503504495655	Marionette	INFO	Enabled via --marionette
+1503504498595	Marionette	INFO	Listening on port 52797
+1503504498642	Marionette	INFO	Listening on port 52797
+1503504498828	Marionette	WARN	TLS certificate errors will be ignored for this session
+1503504498910	Marionette	DEBUG	loaded listener.js
+1503504498989	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1503504501732	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1503504501732	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1503504505690	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://www.mhchina.net/index.html"
+1503504506337	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://www.mhchina.net/hpage/santo.php"
+1503504506352	Marionette	DEBUG	Received DOM event "pageshow" for "http://www.mhchina.net/hpage/santo.php"
+1503504507216	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://www.mhchina.net/hpage/data.php?camp=2408"
+1503504507221	Marionette	DEBUG	Received DOM event "pageshow" for "http://www.mhchina.net/hpage/data.php?camp=2408"
+1503504507225	Marionette	DEBUG	Received DOM event "pageshow" for "http://www.mhchina.net/index.html"
+Unable to read VR Path Registry from C:\Users\Administrator\AppData\Local\openvr\openvrpaths.vrpath
+[GPU 6108] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\Administrator\AppData\Local\openvr\openvrpaths.vrpath
+[Child 11124] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+Unable to read VR Path Registry from C:\Users\Administrator\AppData\Local\openvr\openvrpaths.vrpath
+1503504810818	geckodriver	INFO	geckodriver 0.18.0
+1503504810818	geckodriver	INFO	Listening on 127.0.0.1:52932
+1503504812928	geckodriver::marionette	INFO	Starting browser D:\Program Files (x86)\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1503504813984	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\Administrator\AppData\Local\openvr\openvrpaths.vrpath
+JavaScript error: jar:file:///D:/Program%20Files%20(x86)/Mozilla%20Firefox/omni.ja!/components/SanityTest.js, line 65: NS_ERROR_FILE_ACCESS_DENIED: Component returned failure code: 0x80520015 (NS_ERROR_FILE_ACCESS_DENIED) [nsIPrefService.savePrefFile]
+Unable to read VR Path Registry from C:\Users\Administrator\AppData\Local\openvr\openvrpaths.vrpath
+[GPU 7628] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[GPU 7628] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1503504836277	Marionette	INFO	Listening on port 52939
+Unable to read VR Path Registry from C:\Users\Administrator\AppData\Local\openvr\openvrpaths.vrpath
+[Child 488] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1503504836284	Marionette	INFO	Listening on port 52939
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1503504842530	geckodriver	INFO	geckodriver 0.18.0
+1503504842545	geckodriver	INFO	Listening on 127.0.0.1:52995
+1503504844655	geckodriver::marionette	INFO	Starting browser D:\Program Files (x86)\Mozilla Firefox\firefox.exe with args ["-marionette"]
+Unable to read VR Path Registry from C:\Users\Administrator\AppData\Local\openvr\openvrpaths.vrpath
+JavaScript error: jar:file:///D:/Program%20Files%20(x86)/Mozilla%20Firefox/omni.ja!/components/SanityTest.js, line 284: NS_ERROR_FILE_ACCESS_DENIED: Component returned failure code: 0x80520015 (NS_ERROR_FILE_ACCESS_DENIED) [nsIPrefService.savePrefFile]
+1503504845608	Marionette	INFO	Enabled via --marionette
+1503504848119	Marionette	INFO	Listening on port 53001
+1503504848154	Marionette	INFO	Listening on port 53001
+1503504848436	Marionette	WARN	TLS certificate errors will be ignored for this session
+1503504848486	Marionette	DEBUG	loaded listener.js
+1503504848535	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1503504849411	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1503504849412	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1503504851287	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://www.mhchina.net/index.html"
+1503504851750	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://www.mhchina.net/hpage/santo.php"
+1503504851767	Marionette	DEBUG	Received DOM event "pageshow" for "http://www.mhchina.net/hpage/santo.php"
+1503504852907	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://www.mhchina.net/hpage/data.php?camp=2408"
+1503504852912	Marionette	DEBUG	Received DOM event "pageshow" for "http://www.mhchina.net/hpage/data.php?camp=2408"
+1503504852914	Marionette	DEBUG	Received DOM event "pageshow" for "http://www.mhchina.net/index.html"
+1503504853730	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+Unable to read VR Path Registry from C:\Users\Administrator\AppData\Local\openvr\openvrpaths.vrpath
+[GPU 1260] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1503504948468	geckodriver	INFO	geckodriver 0.18.0
+1503504948484	geckodriver	INFO	Listening on 127.0.0.1:53144
+1503504950594	geckodriver::marionette	INFO	Starting browser D:\Program Files (x86)\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1503504951603	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\Administrator\AppData\Local\openvr\openvrpaths.vrpath
+[GPU 1612] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1503504954311	Marionette	INFO	Listening on port 53150
+1503504954365	Marionette	WARN	TLS certificate errors will be ignored for this session
+1503504954388	Marionette	INFO	Listening on port 53150
+1503504954419	Marionette	DEBUG	loaded listener.js
+1503504954461	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1503504955303	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1503504955304	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1503504957311	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://www.mhchina.net/index.html"
+1503504957795	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://www.mhchina.net/hpage/santo.php"
+1503504957815	Marionette	DEBUG	Received DOM event "pageshow" for "http://www.mhchina.net/hpage/santo.php"
+1503504958661	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://www.mhchina.net/hpage/data.php?camp=2408"
+1503504958669	Marionette	DEBUG	Received DOM event "pageshow" for "http://www.mhchina.net/hpage/data.php?camp=2408"
+1503504958674	Marionette	DEBUG	Received DOM event "pageshow" for "http://www.mhchina.net/index.html"
+1503504959156	Marionette	DEBUG	Received DOM event "pagehide" for "http://www.mhchina.net/hpage/data.php?camp=2408"
+1503504959367	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+Unable to read VR Path Registry from C:\Users\Administrator\AppData\Local\openvr\openvrpaths.vrpath
+[Child 1888] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 1888] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+Unable to read VR Path Registry from C:\Users\Administrator\AppData\Local\openvr\openvrpaths.vrpath
+1503505184534	geckodriver	INFO	geckodriver 0.18.0
+1503505184550	geckodriver	INFO	Listening on 127.0.0.1:53435
+1503505186660	geckodriver::marionette	INFO	Starting browser D:\Program Files (x86)\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1503505187673	Marionette	INFO	Enabled via --marionette
+1503505190102	Marionette	INFO	Listening on port 53441
+1503505190119	Marionette	INFO	Listening on port 53441
+1503505190398	Marionette	WARN	TLS certificate errors will be ignored for this session
+1503505190449	Marionette	DEBUG	loaded listener.js
+1503505190487	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1503505194351	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1503505194352	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1503505196366	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://www.mhchina.net/index.html"
+1503505196808	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://www.mhchina.net/hpage/santo.php"
+1503505196833	Marionette	DEBUG	Received DOM event "pageshow" for "http://www.mhchina.net/hpage/santo.php"
+1503505197627	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://www.mhchina.net/hpage/data.php?camp=2408"
+1503505197635	Marionette	DEBUG	Received DOM event "pageshow" for "http://www.mhchina.net/hpage/data.php?camp=2408"
+1503505197642	Marionette	DEBUG	Received DOM event "pageshow" for "http://www.mhchina.net/index.html"
+1503505198405	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+Unable to read VR Path Registry from C:\Users\Administrator\AppData\Local\openvr\openvrpaths.vrpath
+[GPU 2848] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+Unable to read VR Path Registry from C:\Users\Administrator\AppData\Local\openvr\openvrpaths.vrpath
+1503505293676	geckodriver	INFO	geckodriver 0.18.0
+1503505293692	geckodriver	INFO	Listening on 127.0.0.1:53528
+1503505295801	geckodriver::marionette	INFO	Starting browser D:\Program Files (x86)\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1503505296850	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\Administrator\AppData\Local\openvr\openvrpaths.vrpath
+[Child 9064] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 9064] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1503505299380	Marionette	INFO	Listening on port 53534
+1503505299404	Marionette	INFO	Listening on port 53534
+1503505299534	Marionette	WARN	TLS certificate errors will be ignored for this session
+1503505299589	Marionette	DEBUG	loaded listener.js
+1503505299627	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1503505319263	addons.productaddons	WARN	Failed downloading XML, status: 0, reason: timeout
+1503505339904	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1503505339949	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1503505339949	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1503505339951	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967297"
+Unable to read VR Path Registry from C:\Users\Administrator\AppData\Local\openvr\openvrpaths.vrpath
+[GPU 9008] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1503505340058	addons.productaddons	WARN	Failed downloading via XHR, status: 0, reason: error
+Unable to read VR Path Registry from C:\Users\Administrator\AppData\Local\openvr\openvrpaths.vrpath
+[Child 2880] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1503505344393	geckodriver	INFO	geckodriver 0.18.0
+1503505344408	geckodriver	INFO	Listening on 127.0.0.1:53603
+1503505346518	geckodriver::marionette	INFO	Starting browser D:\Program Files (x86)\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1503505347562	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\Administrator\AppData\Local\openvr\openvrpaths.vrpath
+[Child 9128] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1503505350069	Marionette	INFO	Listening on port 53610
+1503505350112	Marionette	INFO	Listening on port 53610
+1503505350281	Marionette	WARN	TLS certificate errors will be ignored for this session
+1503505350340	Marionette	DEBUG	loaded listener.js
+1503505350385	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+Unable to read VR Path Registry from C:\Users\Administrator\AppData\Local\openvr\openvrpaths.vrpath
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1503505361221	addons.productaddons	WARN	Failed downloading XML, status: 0, reason: error
+1503505361226	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1503505361249	addons.productaddons	WARN	Failed downloading via XHR, status: 0, reason: error
+1503505361259	addons.productaddons	WARN	Failed downloading via XHR, status: 0, reason: error
+1503505361276	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1503505361276	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1503505361367	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "about:neterror?e=connectionFailure&u=http%3A//www.mhchina.net/index.html&c=UTF-8&f=regular&d=Firefox%20%E6%97%A0%E6%B3%95%E5%BB%BA%E7%AB%8B%E5%88%B0%20www.mhchina.net%20%E6%9C%8D%E5%8A%A1%E5%99%A8%E7%9A%84%E8%BF%9E%E6%8E%A5%E3%80%82"
+Unable to read VR Path Registry from C:\Users\Administrator\AppData\Local\openvr\openvrpaths.vrpath
+[GPU 7568] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\Administrator\AppData\Local\openvr\openvrpaths.vrpath
+[Child 6096] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1503505377677	geckodriver	INFO	geckodriver 0.18.0
+1503505377693	geckodriver	INFO	Listening on 127.0.0.1:53722
+1503505379819	geckodriver::marionette	INFO	Starting browser D:\Program Files (x86)\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1503505380923	Marionette	INFO	Enabled via --marionette
+1503505383708	Marionette	INFO	Listening on port 53729
+1503505383732	Marionette	INFO	Listening on port 53729
+1503505384068	Marionette	WARN	TLS certificate errors will be ignored for this session
+1503505384157	Marionette	DEBUG	loaded listener.js
+1503505384239	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1503505385092	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1503505385092	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1503505387677	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://www.mhchina.net/index.html"
+1503505388050	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://www.mhchina.net/hpage/santo.php"
+1503505388058	Marionette	DEBUG	Received DOM event "pageshow" for "http://www.mhchina.net/hpage/santo.php"
+1503505388757	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://www.mhchina.net/hpage/data.php?camp=2408"
+1503505388762	Marionette	DEBUG	Received DOM event "pageshow" for "http://www.mhchina.net/hpage/data.php?camp=2408"
+1503505388766	Marionette	DEBUG	Received DOM event "pageshow" for "http://www.mhchina.net/index.html"
+1503505389514	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+Unable to read VR Path Registry from C:\Users\Administrator\AppData\Local\openvr\openvrpaths.vrpath
+[GPU 9292] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+Unable to read VR Path Registry from C:\Users\Administrator\AppData\Local\openvr\openvrpaths.vrpath
+1503505707025	geckodriver	INFO	geckodriver 0.18.0
+1503505707056	geckodriver	INFO	Listening on 127.0.0.1:54283
+1503505709151	geckodriver::marionette	INFO	Starting browser D:\Program Files (x86)\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1503505710186	Marionette	INFO	Enabled via --marionette
+1503505712781	Marionette	INFO	Listening on port 54289
+1503505712862	Marionette	INFO	Listening on port 54289
+1503505712933	Marionette	WARN	TLS certificate errors will be ignored for this session
+1503505712991	Marionette	DEBUG	loaded listener.js
+1503505713034	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1503505713812	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1503505713812	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1503505716392	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://www.mhchina.net/index.html"
+1503505716941	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://www.mhchina.net/hpage/santo.php"
+1503505716948	Marionette	DEBUG	Received DOM event "pageshow" for "http://www.mhchina.net/hpage/santo.php"
+1503505717787	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://www.mhchina.net/hpage/data.php?camp=2408"
+1503505717793	Marionette	DEBUG	Received DOM event "pageshow" for "http://www.mhchina.net/hpage/data.php?camp=2408"
+1503505717796	Marionette	DEBUG	Received DOM event "pageshow" for "http://www.mhchina.net/index.html"
+1503505718279	Marionette	DEBUG	Received DOM event "pagehide" for "http://www.mhchina.net/hpage/data.php?camp=2408"
+1503505718482	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+Unable to read VR Path Registry from C:\Users\Administrator\AppData\Local\openvr\openvrpaths.vrpath
+[GPU 6660] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\Administrator\AppData\Local\openvr\openvrpaths.vrpath
+[Parent 8920] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1503505980859	geckodriver	INFO	geckodriver 0.18.0
+1503505980874	geckodriver	INFO	Listening on 127.0.0.1:54549
+1503505982984	geckodriver::marionette	INFO	Starting browser D:\Program Files (x86)\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1503505984026	Marionette	INFO	Enabled via --marionette
+1503505986548	Marionette	INFO	Listening on port 54556
+1503505986640	Marionette	INFO	Listening on port 54556
+1503505986747	Marionette	WARN	TLS certificate errors will be ignored for this session
+1503505986802	Marionette	DEBUG	loaded listener.js
+1503505986868	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1503505987564	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1503505987564	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1503505989389	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://www.mhchina.net/index.html"
+1503505989765	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://www.mhchina.net/hpage/santo.php"
+1503505989779	Marionette	DEBUG	Received DOM event "pageshow" for "http://www.mhchina.net/hpage/santo.php"
+1503505990454	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://www.mhchina.net/hpage/data.php?camp=2408"
+1503505990460	Marionette	DEBUG	Received DOM event "pageshow" for "http://www.mhchina.net/hpage/data.php?camp=2408"
+1503505990463	Marionette	DEBUG	Received DOM event "pageshow" for "http://www.mhchina.net/index.html"
+1503505991185	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1503505991482	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+Unable to read VR Path Registry from C:\Users\Administrator\AppData\Local\openvr\openvrpaths.vrpath
+[Parent 4376] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\Administrator\AppData\Local\openvr\openvrpaths.vrpath
+[Child 9404] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 9404] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1503506422808	geckodriver	INFO	geckodriver 0.18.0
+1503506422824	geckodriver	INFO	Listening on 127.0.0.1:54684
+1503506424934	geckodriver::marionette	INFO	Starting browser D:\Program Files (x86)\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1503506425958	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\Administrator\AppData\Local\openvr\openvrpaths.vrpath
+[GPU 3824] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1503506428448	Marionette	INFO	Listening on port 54692
+1503506428456	Marionette	INFO	Listening on port 54692
+1503506428659	Marionette	WARN	TLS certificate errors will be ignored for this session
+1503506428722	Marionette	DEBUG	loaded listener.js
+1503506428770	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1503506429619	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1503506429619	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1503506431860	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://www.mhchina.net/index.html"
+1503506432303	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://www.mhchina.net/hpage/santo.php"
+1503506432319	Marionette	DEBUG	Received DOM event "pageshow" for "http://www.mhchina.net/hpage/santo.php"
+1503506432750	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://www.mhchina.net/hpage/data.php?camp=2408"
+1503506432756	Marionette	DEBUG	Received DOM event "pageshow" for "http://www.mhchina.net/hpage/data.php?camp=2408"
+1503506432766	Marionette	DEBUG	Received DOM event "pageshow" for "http://www.mhchina.net/index.html"
+1503506433493	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+[GPU 3824] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+Unable to read VR Path Registry from C:\Users\Administrator\AppData\Local\openvr\openvrpaths.vrpath
+1503506491979	geckodriver	INFO	geckodriver 0.18.0
+1503506491994	geckodriver	INFO	Listening on 127.0.0.1:54768
+1503506494089	geckodriver::marionette	INFO	Starting browser D:\Program Files (x86)\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1503506495078	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\Administrator\AppData\Local\openvr\openvrpaths.vrpath
+[GPU 6052] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1503506497277	Marionette	INFO	Listening on port 54774
+1503506497350	Marionette	WARN	TLS certificate errors will be ignored for this session
+1503506497399	Marionette	INFO	Listening on port 54774
+1503506497411	Marionette	DEBUG	loaded listener.js
+1503506497460	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1503506498265	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1503506498265	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1503506500075	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://www.mhchina.net/index.html"
+1503506500522	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://www.mhchina.net/hpage/santo.php"
+1503506500536	Marionette	DEBUG	Received DOM event "pageshow" for "http://www.mhchina.net/hpage/santo.php"
+1503506501381	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://www.mhchina.net/hpage/data.php?camp=2408"
+1503506501390	Marionette	DEBUG	Received DOM event "pageshow" for "http://www.mhchina.net/hpage/data.php?camp=2408"
+1503506501397	Marionette	DEBUG	Received DOM event "pageshow" for "http://www.mhchina.net/index.html"
+1503506502189	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+[GPU 6052] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/ch1503506541540	geckodriver::marionette	INFO	Starting browser D:\Program Files (x86)\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1503506542562	Marionette	INFO	Enabled via --marionette
+1503506544862	Marionette	INFO	Listening on port 54850
+1503506544889	Marionette	INFO	Listening on port 54850
+1503506545290	Marionette	WARN	TLS certificate errors will be ignored for this session
+1503506545381	Marionette	DEBUG	loaded listener.js
+1503506545460	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1503506546269	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1503506546269	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1503506548121	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://www.mhchina.net/index.html"
+1503506548631	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://www.mhchina.net/hpage/santo.php"
+1503506548651	Marionette	DEBUG	Received DOM event "pageshow" for "http://www.mhchina.net/hpage/santo.php"
+1503506549467	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://www.mhchina.net/hpage/data.php?camp=2408"
+1503506549474	Marionette	DEBUG	Received DOM event "pageshow" for "http://www.mhchina.net/hpage/data.php?camp=2408"
+1503506549482	Marionette	DEBUG	Received DOM event "pageshow" for "http://www.mhchina.net/index.html"
+1503506549957	Marionette	DEBUG	Received DOM event "pagehide" for "http://www.mhchina.net/hpage/data.php?camp=2408"
+1503506550159	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+Unable to read VR Path Registry from C:\Users\Administrator\AppData\Local\openvr\openvrpaths.vrpath
+[Child 5520] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 5520] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+Unable to read VR Path Registry from C:\Users\Administrator\AppData\Local\openvr\openvrpaths.vrpath
+1503506710684	geckodriver	INFO	geckodriver 0.18.0
+1503506710700	geckodriver	INFO	Listening on 127.0.0.1:54929
+1503506712825	geckodriver::marionette	INFO	Starting browser D:\Program Files (x86)\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1503506713859	Marionette	INFO	Enabled via --marionette
+1503506716291	Marionette	INFO	Listening on port 54935
+1503506716314	Marionette	INFO	Listening on port 54935
+1503506716579	Marionette	WARN	TLS certificate errors will be ignored for this session
+1503506716630	Marionette	DEBUG	loaded listener.js
+1503506716674	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1503506717558	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1503506717558	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1503506719665	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://www.mhchina.net/index.html"
+1503506720100	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://www.mhchina.net/hpage/santo.php"
+1503506720115	Marionette	DEBUG	Received DOM event "pageshow" for "http://www.mhchina.net/hpage/santo.php"
+1503506720547	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://www.mhchina.net/hpage/data.php?camp=2408"
+1503506720550	Marionette	DEBUG	Received DOM event "pageshow" for "http://www.mhchina.net/hpage/data.php?camp=2408"
+1503506720554	Marionette	DEBUG	Received DOM event "pageshow" for "http://www.mhchina.net/index.html"
+1503506721231	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+Unable to read VR Path Registry from C:\Users\Administrator\AppData\Local\openvr\openvrpaths.vrpath
+[Child 2156] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 2156] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+Unable to read VR Path Registry from C:\Users\Administrator\AppData\Local\openvr\openvrpaths.vrpath
+1503507476964	geckodriver	INFO	geckodriver 0.18.0
+1503507476980	geckodriver	INFO	Listening on 127.0.0.1:55093
+1503507479090	geckodriver::marionette	INFO	Starting browser D:\Program Files (x86)\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1503507480189	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\Administrator\AppData\Local\openvr\openvrpaths.vrpath
+[Child 9908] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 9908] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1503507482823	Marionette	INFO	Listening on port 55099
+1503507482898	Marionette	WARN	TLS certificate errors will be ignored for this session
+1503507482920	Marionette	INFO	Listening on port 55099
+1503507482956	Marionette	DEBUG	loaded listener.js
+1503507483008	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1503507485068	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1503507485069	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1503507487308	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://www.mhchina.net/index.html"
+1503507487746	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://www.mhchina.net/hpage/santo.php"
+1503507487757	Marionette	DEBUG	Received DOM event "pageshow" for "http://www.mhchina.net/hpage/santo.php"
+1503507491844	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://www.mhchina.net/hpage/data.php?camp=2408"
+1503507491855	Marionette	DEBUG	Received DOM event "pageshow" for "http://www.mhchina.net/hpage/data.php?camp=2408"
+1503507491860	Marionette	DEBUG	Received DOM event "pageshow" for "http://www.mhchina.net/index.html"
+1503507492350	Marionette	DEBUG	Received DOM event "pagehide" for "http://www.mhchina.net/hpage/data.php?camp=2408"
+1503507492554	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+Unable to read VR Path Registry from C:\Users\Administrator\AppData\Local\openvr\openvrpaths.vrpath
+[GPU 10232] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[GPU 10232] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+Unable to read VR Path Registry from C:\Users\Administrator\AppData\Local\openvr\openvrpaths.vrpath
+1503507603789	geckodriver	INFO	geckodriver 0.18.0
+1503507603789	geckodriver	INFO	Listening on 127.0.0.1:55189
+1503507605914	geckodriver::marionette	INFO	Starting browser D:\Program Files (x86)\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1503507606961	Marionette	INFO	Enabled via --marionette
+1503507609486	Marionette	INFO	Listening on port 55195
+1503507609496	Marionette	INFO	Listening on port 55195
+1503507609670	Marionette	WARN	TLS certificate errors will be ignored for this session
+1503507609730	Marionette	DEBUG	loaded listener.js
+1503507609784	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1503507610559	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1503507610559	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1503507616924	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://www.mhchina.net/index.html"
+1503507617831	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://www.mhchina.net/hpage/santo.php"
+1503507617850	Marionette	DEBUG	Received DOM event "pageshow" for "http://www.mhchina.net/hpage/santo.php"
+1503507618350	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://www.mhchina.net/hpage/data.php?camp=2408"
+1503507618354	Marionette	DEBUG	Received DOM event "pageshow" for "http://www.mhchina.net/hpage/data.php?camp=2408"
+1503507619214	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://www.mhchina.net/hpage/0824.html"
+1503507623548	Marionette	DEBUG	Received DOM event "pageshow" for "http://www.mhchina.net/hpage/0824.html"
+1503507623552	Marionette	DEBUG	Received DOM event "pageshow" for "http://www.mhchina.net/index.html"
+1503507624220	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+Unable to read VR Path Registry from C:\Users\Administrator\AppData\Local\openvr\openvrpaths.vrpath
+[GPU 9664] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\Administrator\AppData\Local\openvr\openvrpaths.vrpath
+[Child 6524] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+Unable to read VR Path Registry from C:\Users\Administrator\AppData\Local\openvr\openvrpaths.vrpath
+1503507677989	geckodriver	INFO	geckodriver 0.18.0
+1503507678004	geckodriver	INFO	Listening on 127.0.0.1:55288
+1503507680130	geckodriver::marionette	INFO	Starting browser D:\Program Files (x86)\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1503507681156	Marionette	INFO	Enabled via --marionette
+1503507683563	Marionette	INFO	Listening on port 55295
+1503507683571	Marionette	INFO	Listening on port 55295
+1503507683875	Marionette	WARN	TLS certificate errors will be ignored for this session
+1503507683925	Marionette	DEBUG	loaded listener.js
+1503507683975	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1503507685066	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1503507685066	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1503507687432	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://www.mhchina.net/index.html"
+1503507687862	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://www.mhchina.net/hpage/santo.php"
+1503507687878	Marionette	DEBUG	Received DOM event "pageshow" for "http://www.mhchina.net/hpage/santo.php"
+1503507688771	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://www.mhchina.net/hpage/data.php?camp=2408"
+1503507688774	Marionette	DEBUG	Received DOM event "pageshow" for "http://www.mhchina.net/hpage/data.php?camp=2408"
+1503507688780	Marionette	DEBUG	Received DOM event "pageshow" for "http://www.mhchina.net/index.html"
+1503507689492	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+Unable to read VR Path Registry from C:\Users\Administrator\AppData\Local\openvr\openvrpaths.vrpath
+[GPU 8188] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+Unable to read VR Path Registry from C:\Users\Administrator\AppData\Local\openvr\openvrpaths.vrpath
+s, line 284: NS_ERROR_FILE_ACCESS_DENIED: Component returned failure code: 0x80520015 (NS_ERROR_FILE_ACCESS_DENIED) [nsIPrefService.savePrefFile]
+1503507747029	Marionette	INFO	Enabled via --marionette
+1503507749324	Marionette	INFO	Listening on port 55379
+1503507749375	Marionette	INFO	Listening on port 55379
+1503507749821	Marionette	WARN	TLS certificate errors will be ignored for this session
+1503507749919	Marionette	DEBUG	loaded listener.js
+1503507750005	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1503507750880	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1503507750881	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1503507752778	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://www.mhchina.net/index.html"
+1503507753456	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://www.mhchina.net/hpage/santo.php"
+1503507753464	Marionette	DEBUG	Received DOM event "pageshow" for "http://www.mhchina.net/hpage/santo.php"
+1503507753872	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://www.mhchina.net/hpage/data.php?camp=2408"
+1503507753877	Marionette	DEBUG	Received DOM event "pageshow" for "http://www.mhchina.net/hpage/data.php?camp=2408"
+1503507754732	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://www.mhchina.net/hpage/0824.html"
+1503507762622	Marionette	DEBUG	Received DOM event "pageshow" for "http://www.mhchina.net/hpage/0824.html"
+1503507762625	Marionette	DEBUG	Received DOM event "pageshow" for "http://www.mhchina.net/index.html"
+1503507763312	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+Unable to read VR Path Registry from C:\Users\Administrator\AppData\Local\openvr\openvrpaths.vrpath
+[GPU 12601503507839440	geckodriver::marionette	INFO	Starting browser D:\Program Files (x86)\Mozilla Firefox\firefox.exe with args ["-marionette"]
+Unable to read VR Path Registry from C:\Users\Administrator\AppData\Local\openvr\openvrpaths.vrpath
+JavaScript error: jar:file:///D:/Program%20Files%20(x86)/Mozilla%20Firefox/omni.ja!/components/SanityTest.js, line 284: NS_ERROR_FILE_ACCESS_DENIED: Component returned failure code: 0x80520015 (NS_ERROR_FILE_ACCESS_DENIED) [nsIPrefService.savePrefFile]
+1503507840751	Marionette	INFO	Enabled via --marionette
+1503507842982	Marionette	INFO	Listening on port 55479
+1503507843060	Marionette	INFO	Listening on port 55479
+1503507843206	Marionette	WARN	TLS certificate errors will be ignored for this session
+1503507843265	Marionette	DEBUG	loaded listener.js
+1503507843321	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1503507844117	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1503507844118	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1503507846876	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://www.mhchina.net/index.html"
+1503507847309	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://www.mhchina.net/hpage/santo.php"
+1503507847317	Marionette	DEBUG	Received DOM event "pageshow" for "http://www.mhchina.net/hpage/santo.php"
+1503507849577	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://www.mhchina.net/hpage/data.php?camp=2408"
+1503507849581	Marionette	DEBUG	Received DOM event "pageshow" for "http://www.mhchina.net/hpage/data.php?camp=2408"
+1503507850220	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://www.mhchina.net/hpage/0824.html"
+1503507855617	Marionette	DEBUG	Received DOM event "pageshow" for "http://www.mhchina.net/hpage/0824.html"
+1503507855621	Marionette	DEBUG	Received DOM event "pageshow" for "http://www.mhchina.net/index.html"
+1503507856431	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+Unable to read VR Path Registry from C:\Users\Administrator\AppData\Local\openvr\openvrpaths.vrpath
+[Child 971503508446510	geckodriver::marionette	INFO	Starting browser D:\Program Files (x86)\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1503508447550	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\Administrator\AppData\Local\openvr\openvrpaths.vrpath
+[GPU 10644] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\Administrator\AppData\Local\openvr\openvrpaths.vrpath
+[Child 3624] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 3624] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1503508450112	Marionette	INFO	Listening on port 55835
+1503508450163	Marionette	INFO	Listening on port 55835
+1503508450281	Marionette	WARN	TLS certificate errors will be ignored for this session
+1503508450341	Marionette	DEBUG	loaded listener.js
+1503508450411	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1503508451248	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1503508451249	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1503508454434	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://www.mhchina.net/index.html"
+1503508454895	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://www.mhchina.net/hpage/santo.php"
+1503508454902	Marionette	DEBUG	Received DOM event "pageshow" for "http://www.mhchina.net/hpage/santo.php"
+1503508455355	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://www.mhchina.net/hpage/data.php?camp=2408"
+1503508455361	Marionette	DEBUG	Received DOM event "pageshow" for "http://www.mhchina.net/hpage/data.php?camp=2408"
+1503508456209	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://www.mhchina.net/hpage/0824.html"
+1503508466363	Marionette	DEBUG	Received DOM event "pageshow" for "http://www.mhchina.net/hpage/0824.html"
+1503508466367	Marionette	DEBUG	Received DOM event "pageshow" for "http://www.mhchina.net/index.html"
+1503508467119	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+Unable to read VR Path Registry from C:\Users\Administrator\AppData\Local\openvr\openvrpaths.vrpath
+86)\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1503508608209	Marionette	INFO	Enabled via --marionette
+1503508611075	Marionette	INFO	Listening on port 55943
+1503508611147	Marionette	INFO	Listening on port 55943
+1503508611380	Marionette	WARN	TLS certificate errors will be ignored for this session
+1503508611460	Marionette	DEBUG	loaded listener.js
+1503508611551	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1503508612398	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1503508612399	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1503508615058	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://www.mhchina.net/index.html"
+1503508615501	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://www.mhchina.net/hpage/santo.php"
+1503508615506	Marionette	DEBUG	Received DOM event "pageshow" for "http://www.mhchina.net/hpage/santo.php"
+1503508616291	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://www.mhchina.net/hpage/data.php?camp=2408"
+1503508616297	Marionette	DEBUG	Received DOM event "pageshow" for "http://www.mhchina.net/hpage/data.php?camp=2408"
+1503508616696	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://www.mhchina.net/hpage/0824.html"
+1503508623209	Marionette	DEBUG	Received DOM event "pageshow" for "http://www.mhchina.net/hpage/0824.html"
+1503508623215	Marionette	DEBUG	Received DOM event "pageshow" for "http://www.mhchina.net/index.html"
+1503508623907	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+Unable to read VR Path Registry from C:\Users\Administrator\AppData\Local\openvr\openvrpaths.vrpath
+[GPU 1268] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\Administrator\AppData\Local\openvr\openvrpaths.vrpath
+[Parent 6280] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+out:blank"
+1503508719960	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1503508719960	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1503508722215	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://www.mhchina.net/index.html"
+1503508722631	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://www.mhchina.net/hpage/santo.php"
+1503508722653	Marionette	DEBUG	Received DOM event "pageshow" for "http://www.mhchina.net/hpage/santo.php"
+1503508727747	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://www.mhchina.net/hpage/data.php?camp=2408"
+1503508727754	Marionette	DEBUG	Received DOM event "pageshow" for "http://www.mhchina.net/hpage/data.php?camp=2408"
+1503508727758	Marionette	DEBUG	Received DOM event "pageshow" for "http://www.mhchina.net/index.html"
+1503508728251	Marionette	DEBUG	Received DOM event "pagehide" for "http://www.mhchina.net/hpage/data.php?camp=2408"
+1503508728456	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+Unable to read VR Path Registry from C:\Users\Administrator\AppData\Local\openvr\openvrpaths.vrpath
+[GPU 81241503508743132	geckodriver::marionette	INFO	Starting browser D:\Program Files (x86)\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1503508744853	Marionette	INFO	Enabled via --marionette
+1503508747130	Marionette	INFO	Listening on port 56118
+1503508747172	Marionette	INFO	Listening on port 56118
+1503508747445	Marionette	WARN	TLS certificate errors will be ignored for this session
+1503508747495	Marionette	DEBUG	loaded listener.js
+1503508747545	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1503508748407	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1503508748408	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1503508751389	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://www.mhchina.net/index.html"
+1503508751815	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://www.mhchina.net/hpage/santo.php"
+1503508751833	Marionette	DEBUG	Received DOM event "pageshow" for "http://www.mhchina.net/hpage/santo.php"
+1503508752273	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://www.mhchina.net/hpage/data.php?camp=2408"
+1503508752276	Marionette	DEBUG	Received DOM event "pageshow" for "http://www.mhchina.net/hpage/data.php?camp=2408"
+1503508752719	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://www.mhchina.net/hpage/0824.html"
+1503508761446	Marionette	DEBUG	Received DOM event "pageshow" for "http://www.mhchina.net/hpage/0824.html"
+1503508761450	Marionette	DEBUG	Received DOM event "pageshow" for "http://www.mhchina.net/index.html"
+1503508762158	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+Unable to read VR Path Registry from C:\Users\Administrator\AppData\Local\openvr\openvrpaths.vrpath
+[Child 9588] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+Unable to read VR Path Registry from C:\Users\Administrator\AppData\Local\openvr\openvrpaths.vrpath
+e errors will be ignored for this session
+1503508774808	Marionette	DEBUG	loaded listener.js
+1503508774858	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1503508775786	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1503508775787	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1503508778860	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://www.mhchina.net/index.html"
+1503508779285	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://www.mhchina.net/hpage/santo.php"
+1503508779305	Marionette	DEBUG	Received DOM event "pageshow" for "http://www.mhchina.net/hpage/santo.php"
+1503508780231	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://www.mhchina.net/hpage/data.php?camp=2408"
+1503508780235	Marionette	DEBUG	Received DOM event "pageshow" for "http://www.mhchina.net/hpage/data.php?camp=2408"
+1503508780688	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://www.mhchina.net/hpage/0824.html"
+1503508789814	Marionette	DEBUG	Received DOM event "pageshow" for "http://www.mhchina.net/hpage/0824.html"
+1503508789821	Marionette	DEBUG	Received DOM event "pageshow" for "http://www.mhchina.net/index.html"
+1503508790512	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+Unable to read VR Path Registry from C:\Users\Administrator\AppData\Local\openvr\openvrpaths.vrpath
+[Parent 8208] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+
+1503508803773	Marionette	INFO	Listening on port 56294
+1503508804007	Marionette	WARN	TLS certificate errors will be ignored for this session
+1503508804064	Marionette	DEBUG	loaded listener.js
+1503508804118	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1503508805006	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1503508805006	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1503508807664	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://www.mhchina.net/index.html"
+1503508808117	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://www.mhchina.net/hpage/santo.php"
+1503508808135	Marionette	DEBUG	Received DOM event "pageshow" for "http://www.mhchina.net/hpage/santo.php"
+1503508808948	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://www.mhchina.net/hpage/data.php?camp=2408"
+1503508808953	Marionette	DEBUG	Received DOM event "pageshow" for "http://www.mhchina.net/hpage/data.php?camp=2408"
+1503508809394	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://www.mhchina.net/hpage/0824.html"
+1503508816419	Marionette	DEBUG	Received DOM event "pageshow" for "http://www.mhchina.net/hpage/0824.html"
+1503508816427	Marionette	DEBUG	Received DOM event "pageshow" for "http://www.mhchina.net/index.html"
+1503508817120	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+Unable to read VR Path Registry from C:\Users\Administrator\AppData\Local\openvr\openvrpaths.vrpath
+[Child 8628] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+Unable to read VR Path Registry from C:\Users\Administrator\AppData\Local\openvr\openvrpaths.vrpath
+0	Marionette	INFO	Listening on port 56386
+1503508842821	Marionette	DEBUG	loaded listener.js
+1503508842883	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1503508843670	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1503508843671	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1503508845603	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://www.mhchina.net/index.html"
+1503508846029	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://www.mhchina.net/hpage/santo.php"
+1503508846038	Marionette	DEBUG	Received DOM event "pageshow" for "http://www.mhchina.net/hpage/santo.php"
+1503508846879	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://www.mhchina.net/hpage/data.php?camp=2408"
+1503508846886	Marionette	DEBUG	Received DOM event "pageshow" for "http://www.mhchina.net/hpage/data.php?camp=2408"
+1503508847316	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://www.mhchina.net/hpage/0824.html"
+1503508860022	Marionette	DEBUG	Received DOM event "pageshow" for "http://www.mhchina.net/hpage/0824.html"
+1503508860026	Marionette	DEBUG	Received DOM event "pageshow" for "http://www.mhchina.net/index.html"
+1503508860719	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+Unable to read VR Path Registry from C:\Users\Administrator\AppData\Local\openvr\openvrpaths.vrpath
+[Child 4816] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+Unable to read VR Path Registry from C:\Users\Administrator\AppData\Local\openvr\openvrpaths.vrpath
+[Parent 6652] WARNING: pipe error: 232: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 513
+e	INFO	Enabled via --marionette
+1503508951122	Marionette	INFO	Listening on port 56500
+1503508951156	Marionette	INFO	Listening on port 56500
+1503508951559	Marionette	WARN	TLS certificate errors will be ignored for this session
+1503508951643	Marionette	DEBUG	loaded listener.js
+1503508951746	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1503508952621	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1503508952622	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1503508956338	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://www.mhchina.net/index.html"
+1503508956743	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://www.mhchina.net/hpage/santo.php"
+1503508956752	Marionette	DEBUG	Received DOM event "pageshow" for "http://www.mhchina.net/hpage/santo.php"
+1503508957542	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://www.mhchina.net/hpage/data.php?camp=2408"
+1503508957546	Marionette	DEBUG	Received DOM event "pageshow" for "http://www.mhchina.net/hpage/data.php?camp=2408"
+1503508958328	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://www.mhchina.net/hpage/0824.html"
+1503508964274	Marionette	DEBUG	Received DOM event "pageshow" for "http://www.mhchina.net/hpage/0824.html"
+1503508964276	Marionette	DEBUG	Received DOM event "pageshow" for "http://www.mhchina.net/index.html"
+1503508965019	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+[Parent 11108] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+837	Marionette	INFO	Enabled via --marionette
+1503509090182	Marionette	INFO	Listening on port 56602
+1503509090271	Marionette	INFO	Listening on port 56602
+1503509090449	Marionette	WARN	TLS certificate errors will be ignored for this session
+1503509090511	Marionette	DEBUG	loaded listener.js
+1503509090584	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1503509091412	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1503509091412	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1503509094346	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://www.mhchina.net/index.html"
+1503509094794	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://www.mhchina.net/hpage/santo.php"
+1503509094807	Marionette	DEBUG	Received DOM event "pageshow" for "http://www.mhchina.net/hpage/santo.php"
+1503509095587	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://www.mhchina.net/hpage/data.php?camp=2408"
+1503509095592	Marionette	DEBUG	Received DOM event "pageshow" for "http://www.mhchina.net/hpage/data.php?camp=2408"
+1503509095597	Marionette	DEBUG	Received DOM event "pageshow" for "http://www.mhchina.net/index.html"
+1503509096338	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+Unable to read VR Path Registry from C:\Users\Administrator\AppData\Local\openvr\openvrpaths.vrpath
+[GPU 1688] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\Administrator\AppData\Local\openvr\openvrpaths.vrpath
+[Parent 4100] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\Administrator\AppData\Local\openvr\openvrpaths.vrpath
+[Child 8920] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+ndex.html"
+1503509125046	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://www.mhchina.net/hpage/santo.php"
+1503509125063	Marionette	DEBUG	Received DOM event "pageshow" for "http://www.mhchina.net/hpage/santo.php"
+1503509125462	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://www.mhchina.net/hpage/data.php?camp=2408"
+1503509125465	Marionette	DEBUG	Received DOM event "pageshow" for "http://www.mhchina.net/hpage/data.php?camp=2408"
+1503509125877	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://www.mhchina.net/hpage/0824.html"
+1503509133232	Marionette	DEBUG	Received DOM event "pageshow" for "http://www.mhchina.net/hpage/0824.html"
+1503509136086	Marionette	DEBUG	Received DOM event "pageshow" for "http://www.mhchina.net/index.html"
+1503509136801	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+Unable to read VR Path Registry from C:\Users\Administrator\AppData\Local\openvr\openvrpaths.vrpath
+[Child 8860] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\Administrator\AppData\Local\openvr\openvrpaths.vrpath
+[GPU 4836] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+Unable to read VR Path Registry from C:\Users\Administrator\AppData\Local\openvr\openvrpaths.vrpath
+552	Marionette	INFO	Listening on port 56777
+1503509185820	Marionette	WARN	TLS certificate errors will be ignored for this session
+1503509185872	Marionette	DEBUG	loaded listener.js
+1503509185917	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1503509186753	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1503509186754	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1503509192186	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://www.mhchina.net/index.html"
+1503509192589	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://www.mhchina.net/hpage/santo.php"
+1503509192599	Marionette	DEBUG	Received DOM event "pageshow" for "http://www.mhchina.net/hpage/santo.php"
+1503509193032	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://www.mhchina.net/hpage/data.php?camp=2408"
+1503509193043	Marionette	DEBUG	Received DOM event "pageshow" for "http://www.mhchina.net/hpage/data.php?camp=2408"
+1503509193898	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://www.mhchina.net/hpage/0824.html"
+1503509202793	Marionette	DEBUG	Received DOM event "pageshow" for "http://www.mhchina.net/hpage/0824.html"
+1503509202799	Marionette	DEBUG	Received DOM event "pageshow" for "http://www.mhchina.net/index.html"
+1503509203494	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+[Parent 2092] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\Administrator\AppData\Local\openvr\openvrpaths.vrpath
+[Child 9068] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\Administrator\AppData\Local\openvr\openvrpaths.vrpath
+[GPU 3800] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+te	WARN	TLS certificate errors will be ignored for this session
+1503509255183	Marionette	DEBUG	loaded listener.js
+1503509255227	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1503509256058	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1503509256059	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1503509258571	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://www.mhchina.net/index.html"
+1503509259011	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://www.mhchina.net/hpage/santo.php"
+1503509259020	Marionette	DEBUG	Received DOM event "pageshow" for "http://www.mhchina.net/hpage/santo.php"
+1503509260120	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://www.mhchina.net/hpage/data.php?camp=2408"
+1503509260124	Marionette	DEBUG	Received DOM event "pageshow" for "http://www.mhchina.net/hpage/data.php?camp=2408"
+1503509260932	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://www.mhchina.net/hpage/0824.html"
+1503509267939	Marionette	DEBUG	Received DOM event "pageshow" for "http://www.mhchina.net/hpage/0824.html"
+1503509267941	Marionette	DEBUG	Received DOM event "pageshow" for "http://www.mhchina.net/index.html"
+1503509268632	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+Unable to read VR Path Registry from C:\Users\Administrator\AppData\Local\openvr\openvrpaths.vrpath
+[Child 4984] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+trator\AppData\Local\openvr\openvrpaths.vrpath
+[GPU 5136] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\Administrator\AppData\Local\openvr\openvrpaths.vrpath
+[Child 11468] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 11468] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1503509380429	Marionette	INFO	Listening on port 56974
+1503509380505	Marionette	INFO	Listening on port 56974
+1503509380744	Marionette	WARN	TLS certificate errors will be ignored for this session
+1503509380800	Marionette	DEBUG	loaded listener.js
+1503509380850	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1503509381625	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1503509381625	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1503509386815	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://www.mhchina.net/index.html"
+1503509387249	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://www.mhchina.net/hpage/santo.php"
+1503509387257	Marionette	DEBUG	Received DOM event "pageshow" for "http://www.mhchina.net/hpage/santo.php"
+1503509388133	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://www.mhchina.net/hpage/data.php?camp=2408"
+1503509388137	Marionette	DEBUG	Received DOM event "pageshow" for "http://www.mhchina.net/hpage/data.php?camp=2408"
+1503509388645	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://www.mhchina.net/hpage/0824.html"
+1503509395213	Marionette	DEBUG	Received DOM event "pageshow" for "http://www.mhchina.net/hpage/0824.html"
+1503509395220	Marionette	DEBUG	Received DOM event "pageshow" for "http://www.mhchina.net/index.html"
+1503509395926	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+Unable to read VR Path Registry from C:\Users\Administrator\AppData\Local\openvr\openvrpaths.vrpath
+[Parent 12220] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\Administrator\AppData\Local\openvr\openvrpaths.vrpath
+[Child 11588] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 11588] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+rome/common/ipc_channel_win.cc, line 346
+[Child 1884] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1503510260540	Marionette	INFO	Listening on port 57209
+1503510260588	Marionette	INFO	Listening on port 57209
+1503510261014	Marionette	WARN	TLS certificate errors will be ignored for this session
+1503510261081	Marionette	DEBUG	loaded listener.js
+1503510261190	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1503510262011	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1503510262011	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1503510268737	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://www.mhchina.net/index.html"
+1503510269493	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://www.mhchina.net/hpage/santo.php"
+1503510269504	Marionette	DEBUG	Received DOM event "pageshow" for "http://www.mhchina.net/hpage/santo.php"
+1503510269928	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://www.mhchina.net/hpage/data.php?camp=2408"
+1503510269932	Marionette	DEBUG	Received DOM event "pageshow" for "http://www.mhchina.net/hpage/data.php?camp=2408"
+1503510270430	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://www.mhchina.net/hpage/0824.html"
+1503510285430	Marionette	DEBUG	Received DOM event "pageshow" for "http://www.mhchina.net/hpage/0824.html"
+1503510285433	Marionette	DEBUG	Received DOM event "pageshow" for "http://www.mhchina.net/index.html"
+1503510286166	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+Unable to read VR Path Registry from C:\Users\Administrator\AppData\Local\openvr\openvrpaths.vrpath
+[Child 408] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+Unable to read VR Path Registry from C:\Users\Administrator\AppData\Local\openvr\openvrpaths.vrpath
+1503510418991	geckodriver	INFO	geckodriver 0.18.0
+1503510419007	geckodriver	INFO	Listening on 127.0.0.1:57323
+1503510421101	geckodriver::marionette	INFO	Starting browser D:\Program Files (x86)\Mozilla Firefox\firefox.exe with args ["-marionette"]
+Unable to read VR Path Registry from C:\Users\Administrator\AppData\Local\openvr\openvrpaths.vrpath
+JavaScript error: jar:file:///D:/Program%20Files%20(x86)/Mozilla%20Firefox/omni.ja!/components/SanityTest.js, line 284: NS_ERROR_FILE_ACCESS_DENIED: Component returned failure code: 0x80520015 (NS_ERROR_FILE_ACCESS_DENIED) [nsIPrefService.savePrefFile]
+1503510422071	Marionette	INFO	Enabled via --marionette
+1503510424288	Marionette	INFO	Listening on port 57329
+1503510424376	Marionette	WARN	TLS certificate errors will be ignored for this session
+1503510424395	Marionette	INFO	Listening on port 57329
+1503510424436	Marionette	DEBUG	loaded listener.js
+1503510424494	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1503510425434	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1503510425435	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1503510428936	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://www.mhchina.net/index.html"
+1503510430371	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://www.mhchina.net/hpage/santo.php"
+1503510430378	Marionette	DEBUG	Received DOM event "pageshow" for "http://www.mhchina.net/hpage/santo.php"
+1503510431156	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://www.mhchina.net/hpage/data.php?camp=2408"
+1503510431167	Marionette	DEBUG	Received DOM event "pageshow" for "http://www.mhchina.net/hpage/data.php?camp=2408"
+1503510431171	Marionette	DEBUG	Received DOM event "pageshow" for "http://www.mhchina.net/index.html"
+1503510431900	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+Unable to read VR Path Registry from C:\Users\Administrator\AppData\Local\openvr\openvrpaths.vrpath
+[GPU 9796] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\Administrator\AppData\Local\openvr\openvrpaths.vrpath
+[Child 2956] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
